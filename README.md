@@ -108,7 +108,7 @@ back in iis, navigate to the left side, click sites > default > osticket. while 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-go back to the "osticket" folder in iis and select "php manager" once again. click "enable or disable an extension" at the bottom. enabke "php_imap.dll", "php_intl.dll", and "php_opcache
+go back to the "osticket" folder in iis and select "php manager" once again. click "enable or disable an extension" at the bottom. enabke "php_imap.dll", "php_intl.dll", and "php_opcache.dll". once you do this refresh the page in osticket to make sure the changes stick.
 </p>
 <br />
 
@@ -116,7 +116,7 @@ go back to the "osticket" folder in iis and select "php manager" once again. cli
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+go back to the wwwroot folder and find your "osticket" folder. in this folder is another one called include. double click it and find a file called "os-sampleconfig.php". and change the name to "os-config.php" (it may be a good idea to change permissions for certain users)
 </p>
 <br />
 
@@ -124,7 +124,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+you should still be in the first screen in the os ticket window (most of the extensions should be enabled too) after this, youll be brought to a screen where youll have to fill out a buch of information. at the bottom however, under "database settings" youll need to setup your database using heidisql
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+download and install heidiSql, then open it. navigate to the bottom left of the screen wher eit says "new", and login using the same information as you did in  mysql, then click open. finish setting up in the browser by creating a database in heidisql. click "install" at the bottom
 </p>
 <br />
 
