@@ -24,6 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Osticket has several prerequisites you must download and install,
 they can be found here: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
+
 - PHP 7.3.8
 - PHP manager
 - Vc redist
