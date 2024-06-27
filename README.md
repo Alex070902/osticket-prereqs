@@ -43,42 +43,31 @@ In your micorsoft azure vitual machine, go to the control panel. Select "program
 ![Screenshot 2024-06-27 100450](https://github.com/Alex070902/osticket-prereqs/assets/173719378/bce4b90a-3cd0-412f-8f15-1dad7dd01518)
 ![Screenshot 2024-06-27 100530](https://github.com/Alex070902/osticket-prereqs/assets/173719378/434dfdf0-6d6b-4ca2-99dc-145e4ecee6c8)
 ![Screenshot 2024-06-27 100645](https://github.com/Alex070902/osticket-prereqs/assets/173719378/b7e92593-c6a7-4c6b-86f7-b1cc52fbd7de)
+![Screenshot 2024-06-27 112225](https://github.com/Alex070902/osticket-prereqs/assets/173719378/0cf2c70a-3455-4577-8f6c-97c70f6fc0b8)
 
 
 
 
 In this new window, scroll down to the folder called "internet information services" and check the box. Expand this folder, then do the same for "worldwide web services" and "application development features". Check the folder called "CGI", then go to the folder called "common http features and make sure everything in there is checked. Select "ok" (NOTE: To make sure you installed this correctly, type 127.0.0.1 in a web browser and a special webpage should show up. If this doesnt happen you may have to try reinstalling)
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+
 Next download and install php manager, and the rewrite module.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/0ed92754-f07e-456e-a160-bcf4fd1103d4)
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/8584fe86-02e3-444b-bf05-b7b3bd43118b)
+
+
 Create a new directory in the C drive (C:\PHP) then download php 7.3.8 (extract all the files into the directory you just created, C:\PHP)
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 Download and instal vc redist x86
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/d6972426-a38f-4ecb-823a-0a9b9b9cfd84)
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/f7548d74-b86a-426e-9590-b84753631a35)
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/36970389-2155-4cac-880f-e81164ac0ae0)
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/a1776b13-a85d-4be3-a51e-ebcb2aa8f4ca)
+
+
+
 Download Mysql and launch the setup. Choose "typical setup" then check the "launch mysql instance configuration" box. When it's launched, click standard configuration. Create a root password (dont forget it) then click next and execute.
 </p>
 <br />
