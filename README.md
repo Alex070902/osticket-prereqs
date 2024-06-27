@@ -72,10 +72,17 @@ Download Mysql and launch the setup. Choose "typical setup" then check the "laun
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/68b14ad5-49b8-43a2-8040-e3b2c9b3c2c5)
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/adddf09f-cd79-4092-8d99-cc3e5327d328)
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/f69942f0-b84b-42e7-94cb-5db87096d4c9)
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/55c303b6-19c9-4bb9-9b23-981d40b4ca8c)
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/fe779976-afe1-4616-a5d0-96c3f1af3bf5)
+
+
+
+
+
+
 Now its time to register PHP with IIS. First run IIS as an administrator, then double click "php manager". Then click "register new php version" click the 3 dots to the right and browse to the c drive in that folder where you extracted the php files. In this folder will be a file called "php.cgi". Open this (note: be sure to restart iis whenever you install/ change anything)
 </p>
 <br />
