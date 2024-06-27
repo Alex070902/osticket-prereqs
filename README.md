@@ -34,20 +34,19 @@ they can be found here: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZ
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src=![Screenshot 2024-06-27 100233](https://github.com/Alex070902/osticket-prereqs/assets/173719378/eb9480ae-123b-427b-b0ad-656a42385042)
-/>
-</p>
-<p>
-In your micorsoft azure vitual machine, go to the control panel. Select "programs", then "programs and features", then "turn windows features on and off. a new window should come up
-</p>
-<br />
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/1fc2f41b-575c-4f67-8bd5-7aa2dce516f4)
+![Screenshot 2024-06-27 100321](https://github.com/Alex070902/osticket-prereqs/assets/173719378/97e06a30-23cc-40f9-bc03-24a3a6898517)
 
-<p>
-<![Screenshot 2024-06-27 100233](https://github.com/Alex070902/osticket-prereqs/assets/173719378/2dcf687f-7376-4ee0-8b57-eb1387ab79c5)
->
-</p>
-<p>
+
+In your micorsoft azure vitual machine, go to the control panel. Select "programs", then "programs and features", then "turn windows features on and off. a new window should come up
+
+![Screenshot 2024-06-27 100450](https://github.com/Alex070902/osticket-prereqs/assets/173719378/bce4b90a-3cd0-412f-8f15-1dad7dd01518)
+![Screenshot 2024-06-27 100530](https://github.com/Alex070902/osticket-prereqs/assets/173719378/434dfdf0-6d6b-4ca2-99dc-145e4ecee6c8)
+![Screenshot 2024-06-27 100645](https://github.com/Alex070902/osticket-prereqs/assets/173719378/b7e92593-c6a7-4c6b-86f7-b1cc52fbd7de)
+
+
+
+
 In this new window, scroll down to the folder called "internet information services" and check the box. Expand this folder, then do the same for "worldwide web services" and "application development features". Check the folder called "CGI", then go to the folder called "common http features and make sure everything in there is checked. Select "ok" (NOTE: To make sure you installed this correctly, type 127.0.0.1 in a web browser and a special webpage should show up. If this doesnt happen you may have to try reinstalling)
 </p>
 <br />
