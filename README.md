@@ -134,7 +134,7 @@ You should still be in the first screen in the os ticket window (most of the ext
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-download and install heidiSql, then open it. navigate to the bottom left of the screen wher eit says "new", and login using the same information as you did in  mysql, then click open. finish setting up in the browser by creating a database in heidisql. click "install" at the bottom
+Download and install heidiSql, then open it. Navigate to the bottom left of the screen wher eit says "new", and login using the same information as you did in  mysql, then click open. finish setting up in the browser by creating a database in heidisql. click "install" at the bottom
 </p>
 <br />
 
