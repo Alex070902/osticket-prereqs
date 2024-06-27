@@ -35,7 +35,8 @@ they can be found here: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZ
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=![Screenshot 2024-06-27 100233](https://github.com/Alex070902/osticket-prereqs/assets/173719378/eb9480ae-123b-427b-b0ad-656a42385042)
+/>
 </p>
 <p>
 In your micorsoft azure vitual machine, go to the control panel. Select "programs", then "programs and features", then "turn windows features on and off. a new window should come up
