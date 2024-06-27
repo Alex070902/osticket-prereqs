@@ -127,16 +127,6 @@ You should still be in the first screen in the os ticket window (most of the ext
 ![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/c20d403d-a834-4bda-837e-9bec6532a750)
 ![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/182c1856-ca69-4102-b018-6482d260f36f)
 ![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/6d29c549-dde5-4d3b-a6b7-4950c8161d5d)
+![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/98cf070f-4abc-457e-9f66-26b06e6cd73c)
 
 Download and install heidiSql, then open it. Navigate to the bottom left of the screen wher eit says "new", and login using the same information as you did in  mysql, then click open. finish setting up in the browser by creating a database in heidisql. click "install" at the bottom
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
