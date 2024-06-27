@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
-osticket has several prerequisites you must download and install
+Osticket has several prerequisites you must download and install,
 they can be found here: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 - PHP 7.3.8
@@ -29,6 +29,7 @@ they can be found here: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZ
 - Vc redist
 - My SQL 5.5
 - IIS (internet information services)
+- HeidiSQL
 
 <h2>Installation Steps</h2>
 
@@ -41,18 +42,11 @@ In your micorsoft azure vitual machine, go to the control panel. Select "program
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<![Screenshot 2024-06-27 100233](https://github.com/Alex070902/osticket-prereqs/assets/173719378/2dcf687f-7376-4ee0-8b57-eb1387ab79c5)
+>
 </p>
 <p>
-in this new window, scrol down to the folder called "internet information services" and check the box. Expand this folder, then do the same for "worldwide web services" and "application developmetn features". check the folder called "CGI". lastly, go to the folder called common http features and amke sure everything in ther eis checked. select "ok" (NOTE: to make sure you installed this correctly, type 127.0.0.1 in a web browser and a special webpage should show up. if this doesnt happen you may have to try reinstalling)
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Next download and install php manager, and the rewrite module
+In this new window, scroll down to the folder called "internet information services" and check the box. Expand this folder, then do the same for "worldwide web services" and "application development features". Check the folder called "CGI", then go to the folder called "common http features and make sure everything in there is checked. Select "ok" (NOTE: To make sure you installed this correctly, type 127.0.0.1 in a web browser and a special webpage should show up. If this doesnt happen you may have to try reinstalling)
 </p>
 <br />
 
@@ -60,7 +54,7 @@ Next download and install php manager, and the rewrite module
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a new directory in the C drive - C:\PHP, then download php 7.3.8 (extract all the files into the directory you just created, C:\PHP)
+Next download and install php manager, and the rewrite module.
 </p>
 <br />
 
@@ -68,7 +62,7 @@ Create a new directory in the C drive - C:\PHP, then download php 7.3.8 (extract
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-download and instal vc redist x86
+Create a new directory in the C drive (C:\PHP) then download php 7.3.8 (extract all the files into the directory you just created, C:\PHP)
 </p>
 <br />
 
@@ -76,7 +70,7 @@ download and instal vc redist x86
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-download mysql and launch the setup. Choose "typical setup" then check the "launch mysql instance configuration" box. when its launched, click standard configuration. create a root password (dont forget it) then click next and execute
+Download and instal vc redist x86
 </p>
 <br />
 
@@ -84,7 +78,7 @@ download mysql and launch the setup. Choose "typical setup" then check the "laun
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-now its time to register PHP with IIS. first run IIS as an administrator, then double click "php manager". thenclick "register new php version" click the 3 dots to the right and browse to the c drive in that folder where you extracted the php files. in this folder will be a file called "php.cgi". open this (note: be sure to restart iis whenever you install/ change anything)
+Download Mysql and launch the setup. Choose "typical setup" then check the "launch mysql instance configuration" box. When it's launched, click standard configuration. Create a root password (dont forget it) then click next and execute.
 </p>
 <br />
 
@@ -92,7 +86,7 @@ now its time to register PHP with IIS. first run IIS as an administrator, then d
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Download os ticket folder, find another folder inside called "upload". open anoter window in file explorer. go back to the c drive and find a foler called "inetpub" then "wwwroot". go back to the other window and drag the "upload" folder into the "wwwroot" folder, then rename the "upload" folder to "osticket" (restart iis)
+Now its time to register PHP with IIS. First run IIS as an administrator, then double click "php manager". Then click "register new php version" click the 3 dots to the right and browse to the c drive in that folder where you extracted the php files. In this folder will be a file called "php.cgi". Open this (note: be sure to restart iis whenever you install/ change anything)
 </p>
 <br />
 
@@ -100,7 +94,7 @@ Download os ticket folder, find another folder inside called "upload". open anot
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-back in iis, navigate to the left side, click sites > default > osticket. while "osticket" is highlighed navigate to the right and click "browse". if done properly, you should see a new osticket window pop up
+Download os ticket folder, find another folder inside called "upload". open anoter window in file explorer. go back to the c drive and find a foler called "inetpub" then "wwwroot". go back to the other window and drag the "upload" folder into the "wwwroot" folder, then rename the "upload" folder to "osticket". (restart iis)
 </p>
 <br />
 
@@ -108,7 +102,7 @@ back in iis, navigate to the left side, click sites > default > osticket. while 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-go back to the "osticket" folder in iis and select "php manager" once again. click "enable or disable an extension" at the bottom. enabke "php_imap.dll", "php_intl.dll", and "php_opcache.dll". once you do this refresh the page in osticket to make sure the changes stick.
+Back in iis, navigate to the left side, click sites > default > osticket. While "osticket" is highlighed navigate to the right and click "browse". If done properly, you should see a new osticket window pop up.
 </p>
 <br />
 
@@ -116,7 +110,7 @@ go back to the "osticket" folder in iis and select "php manager" once again. cli
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-go back to the wwwroot folder and find your "osticket" folder. in this folder is another one called include. double click it and find a file called "os-sampleconfig.php". and change the name to "os-config.php" (it may be a good idea to change permissions for certain users)
+Go back to the "osticket" folder in iis and select "php manager" once again. Click "enable or disable an extension" at the bottom. Enabke "php_imap.dll", "php_intl.dll", and "php_opcache.dll". Once you do this refresh the page in osticket to make sure the changes stick.
 </p>
 <br />
 
@@ -124,7 +118,15 @@ go back to the wwwroot folder and find your "osticket" folder. in this folder is
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-you should still be in the first screen in the os ticket window (most of the extensions should be enabled too) after this, youll be brought to a screen where youll have to fill out a buch of information. at the bottom however, under "database settings" youll need to setup your database using heidisql
+Go back to the wwwroot folder and find your "osticket" folder. In this folder is another one called include. Double click it and find a file called "os-sampleconfig.php", change the name to "os-config.php". (it may be a good idea to change permissions for certain users)
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+You should still be in the first screen in the os ticket window (most of the extensions should be enabled too) after this, youll be brought to a screen where youll have to fill out a buch of information. at the bottom however, under "database settings" youll need to setup your database using heidisql
 </p>
 <br />
 
