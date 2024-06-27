@@ -38,7 +38,7 @@ they can be found here: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZ
 ![Screenshot 2024-06-27 100321](https://github.com/Alex070902/osticket-prereqs/assets/173719378/97e06a30-23cc-40f9-bc03-24a3a6898517)
 
 
-In your micorsoft azure vitual machine, go to the control panel. Select "programs", then "programs and features", then "turn windows features on and off. a new window should come up
+In your micorsoft azure vitual machine, go to the control panel. Select "programs", then "programs and features", then "turn windows features on and off. A new window should come up.
 
 ![Screenshot 2024-06-27 100450](https://github.com/Alex070902/osticket-prereqs/assets/173719378/bce4b90a-3cd0-412f-8f15-1dad7dd01518)
 ![Screenshot 2024-06-27 100530](https://github.com/Alex070902/osticket-prereqs/assets/173719378/434dfdf0-6d6b-4ca2-99dc-145e4ecee6c8)
@@ -59,7 +59,7 @@ Next download and install php manager, and the rewrite module.
 
 Create a new directory in the C drive (C:\PHP) then download php 7.3.8 (extract all the files into the directory you just created, C:\PHP)
 
-Download and instal vc redist x86
+Download and instal vc redist x86.
 
 ![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/d6972426-a38f-4ecb-823a-0a9b9b9cfd84)
 ![image](https://github.com/Alex070902/osticket-prereqs/assets/173719378/f7548d74-b86a-426e-9590-b84753631a35)
